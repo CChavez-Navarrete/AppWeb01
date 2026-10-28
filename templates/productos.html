@@ -1,13 +1,13 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="container-fluid">
-  <p>{{ mensaje }}</p>
-  <p>Estos son los productos que ofrecemos:</p>
-  <ul>
-    <li>Producto 1</li>
-    <li>Producto 2</li>
-    <li>Producto 3</li>
+<div class="container-fluid page-container">
+  <p class="hero-message">{{ mensaje }}</p>
+  <p class="section-title">Estos son los productos que ofrecemos:</p>
+  <ul class="custom-list">
+    <li class="custom-list-item">Producto 1</li>
+    <li class="custom-list-item">Producto 2</li>
+    <li class="custom-list-item">Producto 3</li>
   </ul>
 </div>
 {% endblock %}
